@@ -168,16 +168,16 @@ header ul {
   list-style:none;
   height:40px;
   padding:0;
-  background: #f4f4f4;
+  background: #33cc33;
   border-radius:5px;
-  border:1px solid #e0e0e0;
+  border:1px solid #262626;
   width:270px;
 }
 
 header li {
   width:89px;
   float:left;
-  border-right:1px solid #e0e0e0;
+  border-right:1px solid #262626;
   height:40px;
 }
 
@@ -204,11 +204,11 @@ header ul a:hover {
 }
 
 header ul a:active {
-  background-color:#f0f0f0;
+  background-color:#262626;
 }
 
 strong {
-  color:#222;
+  color: #ff1a66;
   font-weight:700;
 }
 
@@ -292,9 +292,15 @@ footer {
     padding:0;
   }
 
-  header ul, header p.view {
+header ul, header p.c1 {
     position:static;
   }
+ header ul, header p.c11 {
+    padding:0.4in;
+    font-size:12pt;
+    color:#e6b800;
+  }
+
 
   pre, code {
     word-wrap:normal;

@@ -16,17 +16,17 @@
 */
 
 .pl-c /* comment */ {
-  color: #969896;
+  color: #00ffff;
 }
 
 .pl-c1      /* constant, markup.raw, meta.diff.header, meta.module-reference, meta.property-name, support, support.constant, support.variable, variable.other.constant */,
 .pl-s .pl-v /* string variable */ {
-  color: #ff66cc;
+  color: #00ffff;
 }
 
 .pl-e  /* entity */,
 .pl-en /* entity.name */ {
-  color: #795da3;
+  color: #00ffff;
 }
 
 .pl-s .pl-s1 /* string source */,
