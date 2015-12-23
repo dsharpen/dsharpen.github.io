@@ -21,7 +21,7 @@
 
 .pl-c1      /* constant, markup.raw, meta.diff.header, meta.module-reference, meta.property-name, support, support.constant, support.variable, variable.other.constant */,
 .pl-s .pl-v /* string variable */ {
-  color: #0086b3;
+  color: #ff66cc;
 }
 
 .pl-e  /* entity */,
@@ -31,15 +31,15 @@
 
 .pl-s .pl-s1 /* string source */,
 .pl-smi      /* storage.modifier.import, storage.modifier.package, storage.type.java, variable.other, variable.parameter.function */ {
-  color: #333;
+  color: #331a00;
 }
 
-.pl-ent /* entity.name.tag */ {
+.pl-ent /* entity.name.tag綠色 */ {
   color: #63a35c;
 }
 
-.pl-k /* keyword, storage, storage.type */ {
-  color: #a71d5d;
+.pl-k /* keyword, storage, storage.type紅色 */ {
+  color: #b30000;
 }
 
 .pl-pds              /* punctuation.definition.string, string.regexp.character-class */,
@@ -86,12 +86,12 @@
 }
 
 .pl-mi /* markup.italic */ {
-  color: #333;
+  color: #331a00;
   font-style: italic;
 }
 
 .pl-mb /* markup.bold */ {
-  color: #333;
+  color: #331a00;
   font-weight: bold;
 }
 
